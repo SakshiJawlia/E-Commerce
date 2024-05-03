@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <LetsTalk/>
       <Mapping/>
-      <div className='flex justify-between my-20 mx-auto max-w-[1300px] w-[90%]'>
+      <div className='flex md:flex-row flex-col justify-between my-20 mx-auto max-w-[1300px] w-[90%] gap-20'>
         <Form/>
         <People/>
       </div>

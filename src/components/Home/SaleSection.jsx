@@ -3,10 +3,10 @@ const SaleSection = () => {
   return (
     <div>
       <section className="my-20 mx-auto max-w-[1300px] w-[90%]">
-            <div className="flex gap-12">
+            <div className="flex lg:flex-row flex-col gap-12">
             {
               banner.map((card)=>(
-                <div className={`flex flex-col justify-center bg-cover bg-no-repeat w-[50%] py-16 px-8 hover:cursor-pointer`} style={{ backgroundImage: `url(${card.img})`}} >
+                <div className={`flex flex-col justify-center bg-cover bg-no-repeat w-full py-16 px-8 hover:cursor-pointer`} style={{ backgroundImage: `url(${card.img})`}} >
                     <h3 className="font-thin text-gray-100 text-3xl">{card.title}</h3>
                     <h1 className="text-5xl text-white font-semibold">{card.heading}</h1>
                     <p className="text-white text-base pt-5">{card.desc}</p>

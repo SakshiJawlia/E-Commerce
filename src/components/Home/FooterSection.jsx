@@ -9,10 +9,10 @@ const FooterSection = () => {
   return (
     <div>
         <section className="my-20 mx-auto max-w-[1300px] w-[90%]">
-            <div className="flex justify-around gap-10">
+            <div className="flex md:flex-row flex-col justify-around gap-10">
                 <div>
                     <div>
-                        <img src="./images/logo.png" alt="" />
+                        <img src="/images/logo.png" alt="" />
                     </div>
                     <p className="py-8 font-semibold text-gray-700" >
                         Contact
@@ -68,7 +68,7 @@ const FooterSection = () => {
                         
                             <button className="flex flex-row gap-2 border-2 justify-center items-center p-3 border-y-1 border-y-[#088178] border-x-1 border-x-gray-500 transition hover:bg-[#088178]">
                                 <div className="size-11">
-                                    <img src="./images/google-play-png-logo-3798.png" alt="" />
+                                    <img src="/images/google-play-png-logo-3798.png" alt="" />
                                 </div>
                                 <div className="text-gray-700 text-base font-bold transition hover:text-white">Google Play</div>
                             </button>
@@ -76,10 +76,10 @@ const FooterSection = () => {
                     </div>
                     <p className="text-gray-500 py-4">Secured Payment Gateways</p>
                     <div className="flex flex-row gap-2">
-                        <img src="./images/visa.png" className='w-12 h-12' alt=""/>
-                        <img src="./images/mstrcrd.png" className='w-12 h-12' alt=""/>
-                        <img src="./images/maestro.png" className='w-8 h-9' alt=""/>
-                        <img src="./images/aexp.png" className='w-12 h-12' alt=""/>
+                        <img src="/images/visa.png" className='w-12 h-12' alt=""/>
+                        <img src="/images/mstrcrd.png" className='w-12 h-12' alt=""/>
+                        <img src="/images/maestro.png" className='w-8 h-9' alt=""/>
+                        <img src="/images/aexp.png" className='w-12 h-12' alt=""/>
                     </div>
                 </div>
             </div>

@@ -1,16 +1,31 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import navLinks from "../data/Navlinks" ;
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+import SmallScreenNav from "./Home/SmallScreenNav";
 
 const Navbar = () => {
 
+    const [clicked, setclicked] = useState(false);
+
+    function clickHandler(){
+        setclicked(!clicked);
+    }
+
   return (
-    <div className="flex justify-between items-center bg-[#E3E6F3] py-5 px-20 shadow-custom sticky top-0 left-0">
+    <div className="relative h-full">
+        <div className="flex justify-between items-center bg-[#E3E6F3] py-5 px-20 shadow-custom sticky top-0 left-0  ">
         <div>
         <img src="/images/logo.png" class="logoImg" alt=""/>
         </div>
+        <div className="w-full">
+            <div className="lg:hidden flex justify-end" onClick={clickHandler}>
+                <FontAwesomeIcon icon={faBars} />
+            </div>
+        </div>
         <div>
-            <ul className="flex flex-row justify-center items-center gap-3">
+            <ul className="lg:flex hidden flex-row justify-center items-center gap-3 ">
                 {
                 navLinks.map((link)=>(
                     <li key={link.title} className="py-0 px-5 relative">
@@ -20,6 +35,10 @@ const Navbar = () => {
             }
             </ul>
         </div>
+        {
+            clicked&&<SmallScreenNav clickHandler={clickHandler}/>
+        }
+    </div>
     </div>
   )
 }

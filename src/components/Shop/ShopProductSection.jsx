@@ -21,23 +21,23 @@ const ShopProduct = ({data}) => {
   };
 
   return (
-   <section className="flex max-w-[1300px] w-[90%] m-20 ">
+   <section className="flex md:flex-row flex-col max-w-[1300px] lg:w-[90%] w-full m-20 ">
       <div className="flex flex-col gap-7">
         <div>
           <img src={mainProductImg} alt="" className='h-auto' id="mainImg"/>
         </div>
         <div className="flex gap-5">
-          <div onClick={()=>handleSelectedImage('../images/f2.jpg')}>
-            <img src="../images/f2.jpg" alt=""  className="smallImg"/>
+          <div onClick={()=>handleSelectedImage('/images/f2.jpg')}>
+            <img src="/images/f2.jpg" alt=""  className="smallImg"/>
           </div>
-          <div onClick={()=>handleSelectedImage('../images/f3.jpg')}>
-            <img src="../images/f3.jpg" alt=""  className="smallImg"/>
+          <div onClick={()=>handleSelectedImage('/images/f3.jpg')}>
+            <img src="/images/f3.jpg" alt=""  className="smallImg"/>
           </div>
-          <div onClick={()=>handleSelectedImage('../images/f4.jpg')}>
-            <img src="../images/f4.jpg" alt=""  className="smallImg"/>
+          <div onClick={()=>handleSelectedImage('/images/f4.jpg')}>
+            <img src="/images/f4.jpg" alt=""  className="smallImg"/>
           </div>
-          <div onClick={()=>handleSelectedImage('../images/f5.jpg')}>
-            <img src="../images/f5.jpg" alt=""  className="smallImg"/>
+          <div onClick={()=>handleSelectedImage('/images/f5.jpg')}>
+            <img src="/images/f5.jpg" alt=""  className="smallImg"/>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ const ShopProduct = ({data}) => {
             <option value="4">XL</option>
             <option value="5">XXL</option>
           </select>
-          <div className="flex gap-3">
+          <div className="flex md:flex-row flex-col gap-3 ">
             <div className="flex border border-black w-fit rounded-md ">
               <button className="border border-r-black p-3" onClick={decrementHandler}>-</button>
               <div className="p-3">{count}</div>

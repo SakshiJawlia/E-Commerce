@@ -1,7 +1,7 @@
 const shopProduct=[
     {
         id:'1',
-        img:"../images/f1.jpg",
+        img:"/images/f1.jpg",
         heading:'T-Shirt',
         title:'Astronaut T-Shirts',
         price:'$78',
@@ -9,7 +9,7 @@ const shopProduct=[
     },
     {
         id:'2',
-        img:'../images/f2.jpg',
+        img:'/images/f2.jpg',
         heading:'T-Shirt',
         title:'Leaf Printed T-Shirts',
         price:'$80',
@@ -17,7 +17,7 @@ const shopProduct=[
     },
     {
         id:'3',
-        img:'../images/f3.jpg',
+        img:'/images/f3.jpg',
         heading:'T-Shirt',
         title:'Flower Printed T-Shirts',
         price:'$95',
@@ -25,7 +25,7 @@ const shopProduct=[
     },
     {
         id:'4',
-        img:'../images/f4.jpg',
+        img:'/images/f4.jpg',
         heading:'T-Shirt',
         title:'Printed Shirt',
         price:'$67',
@@ -33,7 +33,7 @@ const shopProduct=[
     },
     {
         id:'5',
-        img:'../images/f5.jpg',
+        img:'/images/f5.jpg',
         heading:'T-Shirt',
         title:'Flower Shirt',
         price:'$90',
@@ -41,7 +41,7 @@ const shopProduct=[
     },
     {
         id:'6',
-        img:'../images/f6.jpg',
+        img:'/images/f6.jpg',
         heading:'T-Shirt',
         title:'Dual Set',
         price:'$100',
@@ -49,7 +49,7 @@ const shopProduct=[
     },
     {
         id:'7',
-        img:'../images/f7.jpg',
+        img:'/images/f7.jpg',
         heading:'Bottoms',
         title:'Plazzo',
         price:'$50',
@@ -57,7 +57,7 @@ const shopProduct=[
     },
     {
         id:'8',
-        img:'../images/f8.jpg',
+        img:'/images/f8.jpg',
         heading:'Tops',
         title:'Top',
         price:'$70',
@@ -65,7 +65,7 @@ const shopProduct=[
     },
     {
         id:'9',
-        img:'../images/n1.jpg',
+        img:'/images/n1.jpg',
         heading:'T-Shirt',
         title:'Plain Shirts',
         price:'$50',
@@ -73,7 +73,7 @@ const shopProduct=[
     },
     {
         id:'10',
-        img:'../images/n2.jpg',
+        img:'/images/n2.jpg',
         heading:'T-Shirt',
         title:'Checked Shirts',
         price:'$80',
@@ -81,7 +81,7 @@ const shopProduct=[
     },
     {
         id:'11',
-        img:'../images/n3.jpg',
+        img:'/images/n3.jpg',
         heading:'T-Shirt',
         title:'White Shirts',
         price:'$90',
@@ -89,7 +89,7 @@ const shopProduct=[
     },
     {
         id:'12',
-        img:'../images/n4.jpg',
+        img:'/images/n4.jpg',
         heading:'T-Shirt',
         title:'Printed Shirts',
         price:'$100',
@@ -97,7 +97,7 @@ const shopProduct=[
     },
     {
         id:'13',
-        img:'../images/n5.jpg',
+        img:'/images/n5.jpg',
         heading:'T-Shirt',
         title:'Blue Shirt',
         price:'$70',
@@ -105,7 +105,7 @@ const shopProduct=[
     },
     {
         id:'14',
-        img:'../images/n6.jpg',
+        img:'/images/n6.jpg',
         heading:'Bottoms',
         title:'Shorts',
         price:'$30',
@@ -113,7 +113,7 @@ const shopProduct=[
     },
     {
         id:'15',
-        img:'../images/n7.jpg',
+        img:'/images/n7.jpg',
         heading:'T-Shirt',
         title:'Mud Shirt',
         price:'$83',
@@ -121,7 +121,7 @@ const shopProduct=[
     },
     {
         id:'16',
-        img:'../images/n8.jpg',
+        img:'/images/n8.jpg',
         heading:'T-Shirt',
         title:'Black Shirt',
         price:'$72',

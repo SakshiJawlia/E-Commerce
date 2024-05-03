@@ -8,7 +8,7 @@ const CollectionSection = () => {
             <h1 className="text-6xl text-[#222]">New Arrivals</h1>
             <p className="text-xl text-gray-400 py-3">Spring Collection New Modern Design</p>
         </div>
-        <div className="my-20 mx-auto grid grid-cols-4 w-full gap-12">
+        <div className="my-20 mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full gap-12">
                 {
                     newArrivals.map((card)=>(
                         <div key={card.title} className="flex flex-col shadow-custom p-4 transition hover:cursor-pointer hover:shadow-cardShadowHover">

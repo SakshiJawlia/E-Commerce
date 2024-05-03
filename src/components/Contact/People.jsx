@@ -4,7 +4,7 @@ import people from '../../data/PeopleData'
 const People = () => {
   return (
     <section>
-      <div className=' flex flex-col gap-7'>
+      <div className=' flex flex-col gap-7 justify-center items-start'>
         {
             people.map((data)=>(
                 <div className='flex gap-7'>

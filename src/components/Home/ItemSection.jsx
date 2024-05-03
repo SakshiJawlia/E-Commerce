@@ -8,7 +8,7 @@ const ItemSection = () => {
             <h1 className="text-6xl text-[#222]">Featured Collections</h1>
             <p className="text-xl text-gray-400 py-3">Summer Collection New Modern Design</p>
         </div>
-        <div className="my-20 mx-auto grid grid-cols-4 w-full gap-12">
+        <div className="my-20 mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full gap-12">
                 {
                     buyCard.map((card)=>(
                         <div key={card.title} className="flex flex-col shadow-custom p-4 transition hover:cursor-pointer hover:shadow-cardShadowHover">
@@ -16,7 +16,7 @@ const ItemSection = () => {
                                 <img src={card.img} alt="" className="object-contain w-full rounded-2xl"/>
                             </div>
                             <h6 className=" text-gray-400 text-sm py-3 px-0">{card.company}</h6>
-                            <h5 className="text-[#088178] text-lg text-nowrap">{card.title}</h5>
+                            <h5 className="text-[#088178] xl:text-lg text-md text-nowrap">{card.title}</h5>
                             <div className="flex py-1">
                                 <img src="images/icons8-star-16.png" alt=""/>
                                 <img src="images/icons8-star-16.png" alt=""/>

@@ -2,7 +2,7 @@
 const KnowMore = () => {
   return (
     <section>
-      <div className="my-20 mx-auto max-w-[1300px] w-[90%] flex gap-10 ">
+      <div className="my-20 mx-auto max-w-[1300px] w-[90%] flex lg:flex-row flex-col gap-10 ">
         <div>
             <img src="images/a6.jpg" alt="" />
         </div>

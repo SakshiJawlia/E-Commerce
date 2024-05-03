@@ -1,7 +1,7 @@
 const people=[
     {
         id:'1',
-        img:"../images/1.png",
+        img:"/images/1.png",
         name:"John Doe",
         title:"Senior Marketing Manager",
         phone:"+ 000 123 000 77 88",
@@ -9,7 +9,7 @@ const people=[
     },
     {
         id:'2',
-        img:"../images/2.png",
+        img:"/images/2.png",
         name:"William Smith",
         title:"Senior Sales Manager",
         phone:"+ 000 123 000 77 88",
@@ -17,7 +17,7 @@ const people=[
     },
     {
         id:'3',
-        img:"../images/3.png",
+        img:"/images/3.png",
         name:"Emma Stone",
         title:"Senior IT Manager",
         phone:"+ 000 123 000 77 88",

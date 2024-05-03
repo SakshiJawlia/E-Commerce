@@ -40,7 +40,7 @@ const ShopProduct = () => {
       )
     }
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <ShopProductSection data={displayItem}/>
       <ShopFeature/>
     </div>
